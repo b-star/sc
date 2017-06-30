@@ -1,0 +1,101 @@
+.evaluate .main-hd{
+    color: #000;
+    padding: 15px 0 ;
+    border-bottom: 1px solid #ff6700;
+}
+.evaluate .main-hd h3{
+    font-weight: bold;
+    font-size: 18px;
+    text-indent: 5px;
+}
+.evaluate .order-info{
+    margin-top: 10px;
+}
+
+.pro-list{
+        border:1px solid #ccc;
+}
+.order-info h4{
+     color: #000;
+     font-weight: bold;
+    font-size: 16px;
+    line-height: 40px;
+    text-indent: 15px;
+}
+.order-main{
+
+}
+.order-main .order-title{
+   background: #a0cdeb;
+    border: #a0cdeb;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.order-title .order-name{
+    width: 620px;
+}
+.order-title .order-status,.order-price,.order-num,.order-total{
+    width: 150px;
+}
+.order-desc{
+}
+.order-desc .pro-desc{
+    padding: 10px;
+    width: 620px;
+    border-right: 1px solid #ccc;
+}
+.order-desc .pro-desc img{
+    width: 80px;
+    height: 80px;
+}
+.pro-desc .desc{
+    line-height: 40px;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   overflow: hidden;
+}
+.pro-status,.pro-price,.pro-num{
+    border-right: 1px solid #ccc;
+}
+.pro-status,.pro-price,.pro-num,.pro-total{
+ width: 140px;
+ text-align:center;
+ line-height: 100px;
+}
+.pro-total{
+    font-weight: bold;
+}
+.pay-total{
+    padding: 20px;
+    color: #000;
+    border-bottom: 1px solid #ccc;
+}
+.pay-total .price{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+.order-all{
+    padding: 10px 0;
+}
+.order-all div{
+    line-height: 30px;
+    text-indent: 25px;
+      color: #000;
+      font-size: 15px;
+}
+.evaluate-btn{
+
+ width: 250px;
+ margin: 0 auto;
+margin-top: 60px;
+}
+.evaluate-btn a{
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: #ff6700;
+    text-align:center;
+    line-height: 50px;
+}

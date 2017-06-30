@@ -1,0 +1,169 @@
+/*
+* @Author: Marte
+* @Date:   2017-05-25 16:00:38
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-05-25 22:29:24
+*/
+.main{
+    background-color: #f5f5f5;
+}
+.pay{
+    padding-top: 10px;
+    background-color: #fff;
+}
+.pay .pay-hd{
+
+    height: 70px;
+    line-height: 70px;
+    font-size: 24px;
+    color: #333;
+    border-radius: 5px;
+    text-indent: 50px;
+    background-color: #fff;
+}
+.pay-body{
+    background-color: #fff;
+    margin-top: 10px;
+}
+.pay-body .pay-icon {
+    margin-left:34px;
+    margin-right: 14px;
+    margin-top: 20px;
+}
+.pay-body .pay-icon .fa-check-circle-o{
+        color: #00c3f5;
+        font-size: 70px;
+        font-weight: normal;
+}
+.pay-desc h3{
+    display: inline-block;
+    margin-top: 20px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+    color: #333;
+}
+.pay-price{
+    display: inline-block;
+     color: #e02b41;
+    font-weight: bold;
+    font-size: 20px;
+}
+.pay-say{
+    font-size: 14px;
+      color: #e02b41;
+      line-height: 25px;
+}
+
+.pay-order-hao{
+    font-size:14px;
+    line-height: 25px;
+}
+
+
+.pro-order{
+    margin-top: 20px;
+    margin-left: 100px;
+    border-top: 1px solid #ccc;
+}
+.pro-product{
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 25px;
+}
+.pro-product span{
+    padding-right: 10px;
+}
+.pro-product span:nth-child(2){
+    color: #666;
+}
+.pro-address{
+    font-size: 14px;
+    line-height: 25px;
+    padding-bottom: 80px;
+}
+.pay-selecter{
+ margin-left: 30px;
+}
+.pay-selecter .current{
+      color: #00c3f5;
+    border-top-color: #00c3f5;
+    border-bottom-color: transparent;
+}
+.pay-selecter a{
+  display:block;
+  width: 200px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+.line{
+
+    border-top: 1px solid #ccc;
+    margin-left: 635px;
+}
+.online-pay-body{
+    margin-top: -2px;
+    padding-top: 20px;
+    padding-left: 60px;
+    margin-left: 30px;
+    padding-bottom: 40px;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.online-pay-body a{
+}
+.blank {
+    // display: none;
+    margin-right: 80px;
+    height: 80px;
+    line-height: 80px;
+}
+.online-pay-body a img{
+    width:127px;
+    height: 38px;
+}
+.online-pay-body .zhifubao{
+  line-height: 200px;
+  text-align: center;
+  color: #ff6700;
+  border: 1px solid #ccc;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: none;
+}
+.online-pay-body .wechat{
+      line-height: 200px;
+  text-align: center;
+  color: #ff6700;
+  border: 1px solid #ccc;
+  width:200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: none;
+}
+.blank input{
+    margin-right: 5px;
+    width: 20px;
+}
+.go-pay {
+    padding: 20px 0;
+}
+.go-pay a{
+    display: block;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    border-color: #F66567;
+    background-color: #F66567;
+}

@@ -1,0 +1,282 @@
+
+.hao-manage{
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+
+.hao-manage a{
+    display: block;
+    width: 90px;
+     color: #00a7ea;
+     text-align: center;
+     border-bottom: 2px solid #00a7ea;
+}
+.manage-main{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.pic-head .pic img{
+        width: 100px;
+    height: 100px;
+}
+.user-info{
+    // display: none;
+    margin-left: 30px;
+    line-height: 60px;
+}
+.user-info span{
+    margin-right: 10px;
+}
+.fa-pencil{
+    cursor: pointer;
+}
+/* 点击铅笔变化处 */
+.alter-user-name{
+    margin-left: 30px;
+    display: none;
+}
+.form-new-user{
+    width: 880px;
+}
+.new-user-name{
+    width: 342px;
+    height: 52px;
+   border: 1px solid #1ece6d;
+}
+.new-user-name input{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    color:#333;
+    text-indent: 10px;
+}
+.new-user-btn{
+    margin-top: 20px;
+}
+.new-user-btn .submit{
+    width: 158px;
+    height: 50px;
+    border: 0;
+    background-color: #32a5e7;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+.esc{
+    display: inline-block;
+    overflow: hidden;
+    width: 158px;
+    height: 50px;
+    background-color: #e0e0e0;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 30px;
+}
+.manage-bp{
+    margin-top: 30px;
+      width: 880px;
+}
+.bp-hd{
+    height: 60px;
+    text-indent: 10px;
+    font-size: 20px;
+    color: #333;
+    line-height: 60px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* 密码项目 */
+.bp-item{
+
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+.bp-password{
+    height: 60px;
+    line-height: 60px;
+    color: #333;
+    /* display: none; */
+}
+.bp-password .alter{
+  color: #00a7ea;
+  font-size: 14px;
+}
+
+
+/* 密码项目 */
+.bp-email{
+    height: 60px;
+    color: #333;
+}
+.bp-email .email{
+    line-height: 60px;
+}
+.bp-email .desc{
+   font-size: 14px;
+   color: #999;
+   margin-left: 80px;
+}
+.bp-email .desc p:first-child{
+ color: #333;
+ font-weight: bold;
+ margin-top: 10px;
+}
+.bp-email .bangding{
+    line-height: 60px;
+     color: #00a7ea;
+  font-size: 14px;
+}
+/* 修改密码 */
+.alter-password{
+display: none;
+}
+
+.alter-hd{
+padding-bottom: 20px;
+}
+.alter-hd span{
+    line-height: 50px;
+    padding-right:  30px;
+}
+.input{
+    width: 342px;
+    height: 50px;
+    border: 1px solid #ccc;
+}
+.input input{
+ width: 100%;
+ height: 100%;
+}
+.alter-bp span{
+    line-height: 50px;
+    padding-right:  30px;
+}
+.alter-btn {
+    margin-top: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.alter-btn .submit{
+    margin-left: 80px;
+    display:block;
+    width: 158px;
+    height: 50px;
+    color: #fff;
+    background-color: #ff6700;
+    font-size: 16px;
+}
+ .alter-btn a{
+    display: block;
+    width: 158px;
+    height: 50px;
+    background-color: #e0e0e0;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+}
+
+
+.alter-email{
+    display:none;
+}
+/* 邮箱 */
+.new-email-hd{
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    color: #333;
+    border-top: 1px solid #ccc;
+}
+/* 控制验证密码 */
+.verify-password-email{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.verfy-password{
+
+}
+.verfy-password span{
+ line-height: 50px;
+ margin-right: 50px;
+}
+.re-password{
+    width: 342px;
+    height: 50px;
+    border: 1px solid #ccc;
+}
+.re-password input{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+.email-bom{
+    margin-top: 40px;
+    margin-left: 120px;
+}
+.email-bom .submit{
+    width: 158px;
+    height: 50px;
+    background-color: #ff6700;
+}
+
+/* 绑定邮箱 */
+.bind-email{
+    display: none;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.bind-email .email span{
+ line-height: 50px;
+ margin-right: 100px;
+}
+.bind-email .new-email{
+    width: 342px;
+    height: 50px;
+    border: 1px solid #ccc;
+}
+.bind-email .new-email input{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+.bind-email .check-email-ma{
+    margin-top: 20px;
+}
+.bind-email .check-email-ma span{
+    line-height: 50px;
+    margin-right: 50px;
+}
+.bind-email .email-ma{
+    width: 342px;
+    height: 50px;
+    border: 1px solid #ccc;
+}
+.bind-email .email-ma input{
+    width: 220px;
+    height: 100%;
+}
+.bind-email .get-ma{
+   display: block;
+    width:120px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-left: 1px solid #ccc;
+}
+
+
+.bind-email .bind-email-btn{
+    margin-top: 20px;
+    margin-left: 130px;
+
+}
+.bind-email .bind-email-btn .submit{
+    width: 158px;
+    height: 50px;
+    background-color: #ff6700;
+}

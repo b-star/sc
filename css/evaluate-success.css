@@ -1,0 +1,20 @@
+/*
+* @Author: Marte
+* @Date:   2017-06-10 15:52:16
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-06-10 15:57:24
+*/
+.success{
+    margin-top: 40px;
+    border: 1px solid #ccc;
+    height: 150px;
+    line-height: 150px;
+    font-size:20px;
+    text-indent: 20px;
+}
+.success .fa-check-circle-o{
+
+ color: #ff6700;
+ font-size: 20px;
+ line-height: 160px;
+}

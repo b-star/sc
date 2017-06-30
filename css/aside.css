@@ -1,0 +1,61 @@
+/*
+* @Author: Marte
+* @Date:   2017-05-24 10:03:17
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-05-24 10:03:20
+*/
+a{
+      text-decoration: none;
+      color: #333;
+     }
+     .path{
+      height: 60px;
+      line-height: 60px;
+     }
+     .path a{
+      font-size: 14px;
+     }
+     .path a:last-child{
+       color: #00c3f5;
+     }
+
+     .aside{
+      width: 236px;
+    float: left;
+     }
+
+     .aside a{
+      display: block;
+      width: 120px;
+      font-size: 14px;
+      color: #666;
+      line-height: 40px;
+     }
+     .aside .wrapper{
+      width:  186px;
+      border-radius: 5px;
+          background-color: #fafafc;
+           padding: 10px 0 54px 25px;
+     }
+    .aside .wrapper a{
+      margin-left: 10px;
+      transition: color .5s;
+    }
+    .aside .wrapper a:hover{
+        color: #00c3f5;
+    }
+    .aside .wrapper .aside-hd{
+      display: block;
+      margin-left: -5px;
+      font-weight: bold;
+      font-size: 15px;
+                 cursor: default;
+        margin-bottom: 5px;
+    }
+    .aside .wrapper i{
+      padding-right: 5px;
+         font-weight: bold;
+         font-size: 15px;
+
+
+    }

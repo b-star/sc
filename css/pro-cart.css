@@ -1,0 +1,283 @@
+/*
+* @Author: Marte
+* @Date:   2017-05-24 19:00:14
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-05-27 14:02:54
+*/
+body{
+        background-color: #f5f5f5;
+}
+.pro-hd{
+    height:90px;
+    line-height: 90px;
+    background-color: #fff;
+    border-bottom: 2px solid #ff6700;
+}
+.pro-hd .logo{
+    margin-right: 30px;
+}
+.pro-hd img{
+    width: 40px;
+    height: 40px;
+    margin-left: 40px;
+}
+.pro-hd .pro-cart-name{
+    font-size: 25px;
+    color: #333;
+    margin-right: 20px;
+}
+.pro-hd span{
+    line-height: 100px;
+    font-size: 14px;
+}
+.cart-pros {
+
+      padding-top: 20px;
+}
+ .cart-pros .cart-pros-hd{
+  height: 60px;
+  border-radius: 5px;
+  background-color: #fff;
+    line-height: 60px;
+
+}
+.cart-pros-hd{
+    border-bottom: 1px solid #f5f5f5;
+}
+.cart-slect-all{
+    font-size: 23px;
+    color: #ff6700;
+    padding-left: 20px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.cart-pros-hd div + div{
+    width: 120px;
+}
+
+.cart-item{
+    background-color: #fff;
+    line-height: 100px;
+    border-bottom: 1px solid #f5f5f5;
+    margin-bottom: 10px;
+    box-shadow: 2px 1px 5px #ccc;
+}
+.cart-select{
+    font-size: 23px;
+    color: #ff6700;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.cart-pic{
+    margin-left: 80px;
+}
+.cart-pic img{
+    width: 80px;
+    height: 80px;
+}
+
+.cart-pro-name{
+    margin-left: 60px;
+        font-weight: normal;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 400px;
+    font-size: 18px;
+
+}
+.cart-pro-name a{
+        color: #424242;
+}
+
+.cart-pro-price{
+    margin-left: 90px;
+}
+
+.cart-pro-num{
+    margin-left: 15px;
+}
+.cart-pro-num .wrapper{
+    border: 1px solid #ccc;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 30px;
+}
+.cart-pro-num .wrapper input{
+    width: 60px;
+    height: 35px;
+    text-align: center;
+}
+.cart-pro-num .wrapper a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #f5f5f5;
+}
+.subtotal{
+    padding-left: 20px;
+    color:#ff6700;
+}
+.cart-pro-control{
+    margin-top: 30px;
+    }
+.cart-pro-control a{
+    display:block;
+    width: 30px;
+   height:30px;
+   line-height: 30px;
+
+    border-radius: 100%;
+    text-align: center;
+    margin-left: 80px;
+    font-size: 20px;
+}
+.cart-pro-control a:hover{
+    background-color: red;
+    color: #fff;
+}
+
+.cart-bottom-gopay{
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    background-color: #fff;
+    width: 1240px;
+    line-height: 60px;
+    border-radius: 5px;
+    box-shadow: 0px -2px 5px #ccc;
+}
+
+.cart-bottom-gopay .go-shop a{
+    display: block;
+    width: 150px;
+    text-align: center;
+    font-size: 14px;
+}
+.cart-pro-total{
+    margin-right: 10px;
+    font-size: 14px;
+}
+.cart-pro-total .total{
+    margin: 0 5px;
+ color: #ff6700;
+}
+.cart-pro-total .select{
+    margin: 0 5px;
+    color: #ff6700;
+}
+
+
+.cart-total-price{
+    color: #ff6700;
+    margin-right: 30px;
+}
+.cart-total-price .all-total{
+    font-size: 30px;
+
+}
+.go-pay a{
+ display: block;
+ width: 200px;
+ color: #fff;
+ background: #ff6700;
+ text-align: center;
+}
+/* 遮罩层 */
+.mask{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    z-index: 999;
+}
+/* 弹出框是否删除商品 */
+.isdele-pro{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -250px;
+ width: 500px;
+ height: 300px;
+ border-radius: 5px;
+ background: #fff;
+ z-index: 1000;
+}
+.isdele-pro span{
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.isdele-pro h3{
+    line-height: 200px;
+    text-align: center;
+    font-size: 25px;
+    color: #333;
+}
+.isdele-pro .isdele-btn{
+ margin-left: 120px;
+}
+.isdele-pro .isdele-btn a{
+    display: block;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    background-color: #ccc;
+}
+.isdele-pro .isdele-btn .queding{
+    background-color: #ff6700;
+    color: #fff;
+}
+.isdele-pro .isdele-btn .quxiao{
+    margin-left: 20px;
+    color: #fff;
+}
+.hidden{
+    padding: 35px 0;
+}
+
+.fa-chevron-up{
+ color: #fff;
+font-size: 25px;
+}
+.user{
+    width: 80px;
+    margin-right: 50px;
+    text-align: center;
+}
+.user-list{
+     position: absolute;
+     text-align: center;
+       background-color: #fafafc;
+        display: none;
+        border-radius: 5px;
+           z-index: 20;
+}
+.user-list .user-items{
+    width: 80px;
+    line-height: 25px;
+    font-size: 14px;
+}
+.user:hover{
+    background-color: #fff;
+}
+.user:hover .user-list{
+  display: block;
+  background-color: #fff;
+}
+.user-list .user-items a:hover{
+    background-color: #e0e0e0;
+}
+

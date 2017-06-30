@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+/*css 初始化 */
+
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img,input,button { border:none; padding:0;margin:0;outline-style:none; }
+ul, ol { list-style:none; }
+input { padding-top:0; padding-bottom:0; font-family: "SimSun","宋体";}
+select, input { vertical-align:middle;}
+select, input, textarea { font-size:12px; margin:0; }
+textarea { resize:none; } /*防止拖动*/
+img {border:0;	vertical-align:middle; }  /*  去掉图片低测默认的3像素空白缝隙*/
+table { border-collapse:collapse; }
+body {
+    font-family: "14px/1.5 " "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    color:#666;
+    background:#fff
+}
+.clearfix:before,.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after{clear:both;}
+.clearfix{
+    *zoom:1;/*IE/7/6*/
+}
+a {color:#666; text-decoration:none; }
+
+h1,h2,h3,h4,h5,h6 {text-decoration:none;font-weight:normal;font-size:100%;}
+s,i,em{font-style:normal;text-decoration:none;}
+.col-red{color: #C81623!important;}
+
+/*公共类*/
+.container{  /*版心 提取 */
+        width: 1240px;
+    margin: 0 auto;
+}
+.fl {
+    float:left;
+}
+.fr {
+    float:right
+}
+.al {
+    text-align:left
+}
+.ac {
+    text-align:center
+}
+.ar {
+    text-align:right
+}
+.hide {
+    display:none
+}
+@font-face {
+  font-family: 'BaiT';
+  src: url('../lib/fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('../lib/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../lib/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../lib/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../lib/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../lib/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+}
+
+[class^="fa"],
+[class*=" fa"] {
+  font-family: BaiT;
+  font-weight: normal;
+  font-style: normal;
+}
+.fa-search:before {
+  content: "\f002";
+}
+.fa-chevron-left:before {
+  content: "\f053";
+}
+.fa-chevron-right:before {
+  content: "\f054";
+}
+.fa-h-square:before {
+  content: "\f0fd";
+}
+
+.fa-ambulance:before {
+  content: "\f0f9";
+}
+.fa-credit-card-alt:before {
+  content: "\f283";
+}
+.fa-handshake-o:before {
+  content: "\f2b5";
+}
+.fa-bank:before,
+.fa-university:before {
+  content: "\f19c";
+}
+.fa-map-marker:before {
+  content: "\f041";
+}
+.fa-gift:before {
+  content: "\f06b";
+}
+.fa-wrench:before {
+  content: "\f0ad";
+}
+.fa-umbrella:before {
+  content: "\f0e9";
+}
+.fa-truck:before {
+  content: "\f0d1";
+}
+.fa-smile-o:before {
+  content: "\f118";
+}
+.fa-commenting-o:before {
+  content: "\f27b";
+}
+.fa-chevron-up:before {
+  content: "\f077";
+}
+.fa-check-circle-o:before {
+  content: "\f05d";
+}
+.fa-user-circle:before {
+  content: "\f2bd";
+}
+.fa-cart-plus:before {
+  content: "\f217";
+}
+.fa-list-alt:before {
+  content: "\f022";
+}
+.fa-user-o:before {
+  content: "\f2c0";
+}
+.fa-credit-card-alt:before {
+  content: "\f283";
+}
+.fa-money:before {
+  content: "\f0d6";
+}
+.fa-dropbox:before {
+  content: "\f16b";
+}
+.fa-pencil:before {
+  content: "\f040";
+}
+.fa-check-square-o:before {
+  content: "\f046";
+}
+.fa-check-circle-o:before {
+  content: "\f05d";
+}
+.fa-circle-thin:before {
+  content: "\f1db";
+}
+.fa-close:before,
+.fa-times:before {
+  content: "\f00d";
+}
+.fa-check:before {
+  content: "\f00c";
+}
+.fa-plus-circle:before {
+  content: "\f055";
+}
+.fa-times-circle-o:before {
+  content: "\f05c";
+}

@@ -1,0 +1,15 @@
+/*
+* @Author: Marte
+* @Date:   2017-05-22 19:29:37
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-05-22 19:36:03
+*/
+.path{
+    height: 60px;
+    line-height: 60px;
+    font-size: 14px;
+}
+.path a:last-child{
+       color: #00c3f5;
+}
+

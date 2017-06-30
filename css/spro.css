@@ -1,0 +1,72 @@
+/*
+* @Author: Marte
+* @Date:   2017-05-18 14:35:08
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-05-18 15:16:05
+*/
+.kind {
+}
+.kind .path {
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    color: #333;
+}
+.kind .path span {
+    color: #999;
+}
+.kind .path .current {
+    color: #999;
+}
+.kind .kind-name {
+    border: 1px solid #999;
+    padding: 15px 10px;
+}
+.class:after {
+    content: ".";
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
+.brand:after{
+    content: '';
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+
+}
+.kind .kind-name ul li {
+    float: left;
+    line-height: 50px;
+    font-size: 14px;
+    color: #999;
+    margin-left: 20px;
+
+}
+.kind .kind-name ul li + li{
+    margin-left: 50px;
+}
+.kind .kind-name ul li + li a{
+    color: #333;
+    transition: color .5s;
+}
+.kind .kind-name ul li a:hover{
+        color: #00c3f5;
+}
+
+.product {
+    background-color: #fff;
+}
+.product .pro-header{
+  height: 40px;
+  line-height: 40px;
+}
+.product .pro-header a{
+    margin-right: 20px;
+    font-size: 14px;
+}
+.pro-box ul li {
+    background-color: #f0f0f0;
+}

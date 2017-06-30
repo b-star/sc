@@ -1,0 +1,382 @@
+
+.make-sure-head{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+}
+
+.make-sure-head .wrapper{
+ height: 74px;
+ line-height: 70px;
+ background-color: #fff;
+}
+.make-sure-head .wrapper h3{
+    margin-left: 60px;
+    font-size: 25px;
+    color: #000;
+}
+.make-sure-head .wrapper .fr{
+    font-size: 14px;
+    margin-right: 30px;
+}
+.make-sure-head .wrapper .color{
+        color: #00c3f5;
+}
+.put-person-order{
+    margin-top: 20px;
+    background-color: #fff;
+        padding-bottom: 20px;
+}
+.put-person-order .location-info-hd{
+ line-height: 70px;
+ border-bottom: 1px solid #f5f5f5;
+ font-size: 20px;
+ color: #000;
+ font-weight: bold;
+ margin-left: 60px;
+ text-indent: 10px;
+}
+.put-person-order .location-info-bm:hover .order-address-control{
+  display:block;
+}
+.put-person-order .location-info-bm{
+    position: relative;
+    width: 275px;
+    height: 144px;
+    cursor: pointer;
+    margin: 20px 0 30px 12px;
+     margin-left: 70px;
+    transition: border-color .8s;
+    border: 2px solid #00c3f5;
+
+
+}
+.put-person-order .location-info-bm .user-info-hd{
+    font-size: 12px;
+    padding-top: 15px;
+    height: 40px;
+    border-bottom: 1px solid #EFEFEF;
+    font-weight: bolder;
+    box-sizing: border-box;
+    padding: 0 20px 0 20px;
+    line-height: 40px;
+    color: #000;
+
+}
+.put-person-order .location-info-bm .user-info-hd .fl{
+    width: 125px;
+    overflow: hidden;
+    white-space: nowrap;
+    word-break: keep-all;
+    text-overflow: ellipsis;
+}
+.put-person-order .location-info-bm .user-info-bm{
+    word-break: break-all;
+    word-wrap: break-word;
+    font-size: 12px;
+    max-height: 70px;
+    overflow: hidden;
+    color: #515151;
+       padding: 10px 20px 0 20px;
+}
+.order-address-check{
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+    bottom: 0;
+    width: 30px;
+    height: 30px;
+}
+.order-address-check::before{
+    position: absolute;
+    right: 0;
+    top: 0;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-right: 30px solid #00c3f5;
+}
+.order-address-check .fa-check{
+    position: absolute;
+    bottom: 0;
+    right:0;
+    color: #fff;
+}
+.order-address-control{
+    position: absolute;
+    bottom: -25px;
+    right: 0;
+    display: none;
+}
+.order-address-control a{
+ color: #00c3f5;
+ font-size: 14px;
+}
+
+.add-location-info-bm{
+    position: relative;
+    width: 275px;
+    height: 144px;
+    cursor: pointer;
+    margin: 20px 0 30px 12px;
+    border: 1px solid #f5f5f5;
+    text-align: center;
+    color: #BDBDBD;
+}
+.add-location-info-bm .wrapper{
+    margin-top: 55px;
+    line-height: 20px;
+}
+.fa-plus-circle{
+    font-size: 30px;
+}
+.add-location-info-bm:hover{
+        color: #00c3f5;
+        border:2px solid #00c3f5;
+
+
+}
+
+/* 确认订单 */
+.qd-order-info{
+margin-top: 40px;
+background-color: #fff;
+padding-bottom: 20px;
+}
+.qd-order-info .order-info-hd{
+    line-height: 80px;
+    padding-left: 50px;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
+.qd-order-info .order-info-table{
+       margin:0 50px;
+    border: 1px solid #f5f5f5;
+}
+.order-info-table .table-hd{
+    line-height: 60px;
+    border-bottom: 1px solid #f5f5f5;
+}
+.order-info-table .table-hd span{
+    width: 200px;
+    text-align:center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+.order-info-table .table-body{
+    height: 150px;
+    border-bottom: 1px solid #f5f5f5;
+}
+.table-body .pic{
+    margin: 0 20px;
+    line-height: 150px;
+}
+.table-body .pic img{
+    width: 80px;
+    height: 80px;
+}
+.table-body .pic-desc{
+    width:250px;
+    margin-top: 50px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.table-body .price{
+    width: 150px;
+       line-height: 150px;
+    text-align: center;
+    margin-right: 50px;
+}
+.table-body .num{
+    width: 150px;
+    line-height: 150px;
+    text-align: center;
+       margin-right: 50px;
+}
+.table-body .subtotal{
+        width: 150px;
+    line-height: 150px;
+    text-align: center;
+       margin-right: 50px;
+}
+.table-body .send{
+    margin-top: 35px;
+     width: 150px;
+    text-align: center;
+}
+.table-foot{
+    background-color: #f5f5f5;
+    padding-bottom: 10px;
+}
+.table-foot .table-foot-hd{
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.table-foot .beizhu span{
+    line-height: 40px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.table-foot .beizhu .input{
+    border: 1px solid #ccc;
+    width: 500px;
+    height: 40px;
+}
+.table-foot .beizhu .input input{
+    width: 100%;
+    height: 100%;
+    text-indent: 5px;
+}
+.all-total{
+    line-height:100px;
+    margin-right: 40px;
+}
+.all-total .price{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tijiao-order{
+    line-height: 40px;
+    background-color: #fff;
+}
+.tijiao-order .order-btn{
+    margin-right: 40px;
+}
+.tijiao-order .order-btn input{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #ff6700;
+}
+
+/* 遮罩层 */
+.mask{
+        display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    z-index: 999;
+}
+/* 弹出层 */
+.alert-address{
+        display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -190px;
+    margin-left: -370px;
+ width: 740px;
+ height: 380px;
+ border-radius: 15px;
+ background: #fff;
+ z-index: 1000;
+}
+.alert-address .address-hd{
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #f5f5f5;
+    text-align: center;
+    font-size:18px;
+    font-weight: bold;
+    color: #333;
+}
+.alert-address .address-hd .close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    line-height: 15px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.alert-address .address-main{
+   margin: 20px 20px 20px 30px;
+}
+.address-main .address-user-name {
+    padding-bottom: 20px;
+}
+.address-main .address-user-name span{
+    font-size: 15px;
+    margin-right: 10px;
+    color: #333;
+    line-height: 40px;
+}
+.address-main .address-user-name .input{
+    width: 200px;
+    height: 40px;
+    border: 1px solid #ccc;
+    margin: 0 10px 0  10px;
+}
+.address-main .address-user-name .input input{
+    width: 100%;
+    height: 100%;
+    text-indent: 10px;
+}
+
+.address-main .address-user{
+     padding-bottom: 20px;
+}
+
+.address-main .address-user span{
+        font-size: 15px;
+    margin-right: 15px;
+    color: #333;
+    line-height: 40px;
+}
+.address-main .address-user  input{
+    height: 40px;
+    border: 1px solid #ccc;
+    text-indent: 10px;
+}
+.address-main .address-detail{
+      padding-bottom: 20px;
+}
+.address-main .address-detail .input{
+    width: 520px;
+    height: 40px;
+    border: 1px solid #ccc;
+    margin: 0 10px 0  10px;
+}
+.address-main .address-detail .input input{
+        width: 100%;
+    height: 100%;
+    text-indent: 10px;
+}
+.address-main .address-detail span{
+            font-size: 15px;
+    margin-right: 25px;
+    color: #333;
+    line-height: 40px;
+}
+
+.address-btn{
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+}
+.address-btn a{
+    display: inline-block;
+    width: 120px;
+    background-color: #00c3f5;
+    height: 40px;
+    margin-right: 30px;
+    line-height: 40px;
+    border-radius: 5px;
+    color: #fff;
+}
+.address-btn .quxiao{
+    background-color: #ccc;
+}

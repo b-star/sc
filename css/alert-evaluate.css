@@ -1,0 +1,138 @@
+/*
+* @Author: Marte
+* @Date:   2017-06-10 16:19:21
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-06-10 19:51:00
+*/
+.evaluate-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 350px;
+    margin-top: -200px;
+    margin-left: -300px;
+    padding-left: 30px;
+}
+.evaluate-box .hd{
+  line-height:60px;
+}
+.evaluate-box .hd h3{
+    color: #000;
+    font-size: 18px;
+    text-indent: 20px;
+}
+.evaluate-box .md{
+    border: 1px solid #ccc;
+}
+.evaluate-pro,.evaluate-ser{
+    border-bottom: 1px solid #ccc;
+}
+.md .left{
+    height: 60px;
+    line-height: 60px;
+    width: 19%;
+    text-align: center;
+    border-right: 1px solid #ccc;
+    background: #fcfcfc;
+}
+.md .right{
+    height: 60px;
+    width: 80%;
+}
+.md .right textarea{
+   height:54px;
+   width: 99%;
+   text-indent: 5px;
+   font-size: 14px;
+   color: #666;
+   border: 0;
+   outline-style:none;
+}
+.evaluate-btn{
+
+ width: 160px;
+ margin: 0 auto;
+  margin-top: 50px;
+}
+.evaluate-btn a{
+display: block;
+width: 150px;
+height: 40px;
+background-color: #ff6700;
+text-align: center;
+line-height: 40px;
+border-radius: 5px;
+color: #fff;
+}
+  .a-upload{
+     padding: 8px 12px;
+     height: 20px;
+    line-height: 20px;
+    position: relative;
+    top: 10px;
+    left: 5px;
+    cursor: pointer;
+    color: #888;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1
+  }
+  .a-upload input{
+     position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer;
+  }
+.a-upload:hover {
+    color: #444;
+    background: #eee;
+    border-color: #ccc;
+    text-decoration: none
+}
+.a-upload .fa-plus-circle{
+    font-size: 20px;
+    color: #ff6700;
+}
+.a-tu{
+    position: relative;
+    top: 10px;
+    left: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+    color: #888;
+    background: #fafafa;
+    border-radius: 4px;
+    overflow: hidden;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1
+}
+.a-tu img{
+    width: 40px;
+    height: 40px;
+}
+.a-tu .fa-times-circle-o{
+    display: none;
+    position: absolute;
+    top: 0
+    left: 0;
+    cursor: pointer;
+    font-size: 40px;
+    line-height: 40px;
+    width: 100%;
+    text-align: center;
+    border-radius: 15px;
+    color: #fff;
+    background: rgba(0,0,0,.4);
+}
+.a-tu:hover .fa-times-circle-o{
+display: block;
+}

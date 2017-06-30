@@ -1,0 +1,155 @@
+
+     .container{
+      width: 1240px;
+      margin: 0 auto;
+      padding-bottom: 20px;
+     }
+
+    .content{
+       width: 1000px;
+      float: right;
+    }
+    .right-content {
+      width: 1000px;
+         /* display: inline-block; */
+      height: 100px;
+      /* background-color: red; */
+       padding-right: 10px;
+    }
+    .right-top{
+      width: 902px;
+       border: 1px solid #f3f3f3;
+    padding: 28px 3.5%;
+    }
+    .pic{
+    padding-right: 30px;
+    }
+    .pic img{
+             width: 119px;
+    height: 119px;
+    padding: 5px;
+
+    border: 5px solid #fafafc;
+    }
+
+ .user-name{
+    min-width: 170px;
+    max-width: 220px;
+    padding-right: 30px;
+ }
+ .user-name{
+  font-size: 20px;
+  line-height: 30px;
+ }
+ .user-name .desc{
+  font-size: 14px;
+  line-height: 30px;
+ }
+
+ .user-info p{
+  color: #999;
+  font-size: 14px;
+  line-height: 40px;
+ }
+ .user-info p span{
+  padding-left: 15px;
+ }
+ .user-info p a{
+  color: #999;
+  transition: color .5s;
+ }
+ .user-info p a:hover{
+   color: #00c3f5;
+ }
+
+ .right-bottom{
+  margin-top: 20px;
+ }
+ .orderstate{
+  width: 900px;
+      border: 1px solid #f3f3f3;
+    margin-right:15px;
+ }
+ .orderstate .title{
+      background: #fafafc;
+    line-height: 38px;
+    font-size: 14px;
+    border-bottom: 1px solid #f3f3f3;
+ }
+ .orderstate .title span{
+      margin-left: 18px;
+ }
+ .all-order{
+  font-size: 14px;
+  color: #999;
+  text-align: center;
+  margin-right: 10px;
+ }
+
+ .order-content{
+  margin-top: 30px;
+  margin-left: 30px;
+ }
+ .icon-pay{
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: #ff6700;
+  text-align: center;
+  line-height: 80px;
+  margin-right:200px;
+ }
+ .fa-money{
+  font-size: 40px;
+  color: #fff;
+ }
+
+ .order-list{
+  font-size: 20px;
+  line-height: 50px;
+ }
+ .order-list .num{
+  margin-left: 10px;
+  color: #ff6700;
+ }
+ .order-all a{
+  font-size: 14px;
+  color: #999;
+ }
+ .waitcar{
+  margin-top: 30px;
+  padding-bottom: 30px;
+ }
+
+ .icon-car{
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background: #00c3f5;
+  text-align: center;
+  line-height: 80px;
+  margin-right: 200px;
+ }
+ .icon-car .fa-dropbox{
+  font-size: 40px;
+  color: #fff;
+ }
+ .order-send{
+    font-size: 20px;
+  line-height: 50px;
+ }
+  .order-send .num{
+  margin-left: 10px;
+  color:#00c3f5;
+ }
+ .order-content a{
+  font-size: 14px;
+  color: #999;
+ }
+   .content a{
+  transition: color .5s;
+
+   }
+  .content a:hover{
+   color: #00c3f5;
+ }

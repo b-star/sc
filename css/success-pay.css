@@ -1,0 +1,34 @@
+.success-pay{
+    border: 1px solid #f0f0f0;
+}
+.success-pay .success-hd{
+    height: 50px;
+    line-height: 50px;
+    background-color: #f0f0f0;
+}
+.success-pay .success-hd .fa-check-circle-o{
+font-size: 25px;
+font-weight: 400;
+color:#ff6700;
+margin-left: 10px;
+}
+.success-pay .success-hd span{
+    padding-left: 10px;
+    color:#000;
+    line-height: 40px;
+}
+.success-pay .success-bm{
+    margin-top: 20px;
+    margin-left: 30px;
+    padding-bottom: 30px;
+    line-height: 40px;
+}
+.success-pay .success-bm p span{
+ color: red;
+ padding-left: 10px;
+}
+.success-pay .success-bm p a{
+    color: #ff6700;
+    font-size:14px;
+    padding-left: 10px;
+}
